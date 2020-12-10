@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7218568941598000361
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7218568941598000363}
+  - component: {fileID: 7218568941598000360}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7218568941598000363
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7218568941598000361}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7218568941598000360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7218568941598000361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1be991a2eeac1d04b8b50dcc1c4efe08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  volume:
+    Mute: 0
+    BGM: 0.2
+    Voice: 0.8
+    SE: 0.6
+  BGM:
+  - {fileID: 8300000, guid: aa3208d143e83dd43a98a04a34d4d217, type: 3}
+  Voice:
+  - {fileID: 8300000, guid: de9b367bc3fd99844a3f4ee6e9b32cbf, type: 3}
+  - {fileID: 8300000, guid: f1578b76d71a487409681705693d4ffa, type: 3}
+  - {fileID: 8300000, guid: 2d173ed060075f34d8a5599de3e0f742, type: 3}
+  - {fileID: 8300000, guid: 245c5580c16d40b4fbe204f2f09e1992, type: 3}
+  - {fileID: 8300000, guid: 69db3eb48cf6481448fd115dae0c546b, type: 3}
+  SystemSE:
+  - {fileID: 8300000, guid: b28b401692653764bb521076b700b5af, type: 3}
+  - {fileID: 8300000, guid: 92ea2fc87be8dde46849dff841084ec3, type: 3}
+  - {fileID: 8300000, guid: 7b13423b84f3b6d438b9300e38128b5d, type: 3}
+  - {fileID: 8300000, guid: f6b641372dbfd044db598d8ae62c393b, type: 3}
+  - {fileID: 8300000, guid: 684d0060f76462d4fac369e0f68a0f2c, type: 3}
+  - {fileID: 8300000, guid: 3e1c490a1f6887743b0006f7bd16e4ad, type: 3}
+  GameSE:
+  - {fileID: 8300000, guid: 805f16fc0cd4ebd45b07e237fc53ca75, type: 3}
+  - {fileID: 8300000, guid: 8fe6c01ece555474b9c5d2b216e8e876, type: 3}
+  - {fileID: 8300000, guid: e5e1f61392149f34f95934841e167b8a, type: 3}
+  - {fileID: 8300000, guid: 949c37e0448a09741b2e2a1651d295ac, type: 3}
+  - {fileID: 8300000, guid: 1ab2fd91a9b0825448fce6dbaf035219, type: 3}
+  - {fileID: 8300000, guid: 863be0e914419d548ba7aaabd948a651, type: 3}
+  - {fileID: 8300000, guid: 49086c09eb8c9074d95f67809641e9e2, type: 3}
+  - {fileID: 8300000, guid: d4bde1fc245a3b54391dd8f04723cbaa, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
