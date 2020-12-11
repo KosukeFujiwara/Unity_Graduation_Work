@@ -1,0 +1,26 @@
+How to use Object Prefabs
+
+1: You can add the prefabs to your scene by dragging and dropping them to where you want them to be
+2: You can adjust their colors by dragging one of the materials in the materials folder onto the object in the scene
+3: If you want to change the material for a whole prefab, go into the prefab and change the material there
+4: For better stonepaths you can adjust the position of single rocks of the PathStone prefabs by double clicking them
+
+How to Setup the "SeasonChanger":
+
+The "SeasonChanger" works by changing the color of 3 linked materials. These can be found in the materials folder and are identifiable by their naming.
+You can change the different season colors inside of the "SeasonChanger" prefab. The "Season Counter" variable cycles from 1 to 4, 1 being spring and 4 being Winter.
+The duration of the color change is also changeable through the "Duration" variable. There are "smartTree" and normal tree prefabs, the "smartTrees" come with
+the smart (color changing) Materials attached, the normal trees have different materials attached depending on their season.
+
+1: Drag the "SeasonChanger" prefab from Assets > SimpleShrinePack > Prefabs into your Scene
+2: Use the "SmartTree" Prefabs or apply the Smart Materials to the Objects you want to have change color during season changes
+3: Adjust the colors to your liking in the "SeasonChanger" Prefab
+4: Seasons can be changed by calling the function "changeSeason()" or changing the number of the "SeasonCounter" variable
+   (Demo Scene uses a button that calls "changeSeason()" in the "SeasonChanger" prefab)
+
+additional explanation given inside of the "SeasonChanger" Script
+
+
+For any further questions contact me at:
+
+contact@leanderkammermeier.de

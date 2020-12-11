@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4671345765820331483
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4671345765820331481}
+  - component: {fileID: 4671345765820331480}
+  m_Layer: 0
+  m_Name: SeasonChanger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4671345765820331481
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4671345765820331483}
+  m_LocalRotation: {x: 0.17331761, y: -0.685537, z: 0.1733176, w: 0.68553704}
+  m_LocalPosition: {x: 5.5836697, y: 1.246294, z: 26.713997}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4671345765820331480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4671345765820331483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be72b8f6b9af3c42b1eb7b283248d22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  seasonCounter: 1
+  duration: 1
+  leavesMat1: {fileID: 2100000, guid: 48db8b9dc371aa7469239bb900f5e2ba, type: 2}
+  leavesMat2: {fileID: 2100000, guid: 01df42b6d8b77b64f8e386b266ba8421, type: 2}
+  grassMat: {fileID: 2100000, guid: 52047ca3c53a5c8498504c8a2a4818d0, type: 2}
+  Summer1: {r: 0.15045391, g: 0.6509434, b: 0.16910563, a: 1}
+  Summer2: {r: 0.2300641, g: 0.8867924, b: 0.25581822, a: 1}
+  Autumn1: {r: 0.8018868, g: 0.15864167, b: 0.12482201, a: 1}
+  Autumn2: {r: 1, g: 0.37277102, b: 0.18396229, a: 1}
+  Winter1: {r: 0.2924528, g: 0.23442936, b: 0.042764325, a: 0}
+  Winter2: {r: 0.2509491, g: 0.35686275, b: 0.15686277, a: 0}
+  Spring1: {r: 0.990566, g: 0.5093005, b: 0.8574003, a: 1}
+  Spring2: {r: 0.8396226, g: 0.1782218, b: 0.690483, a: 1}
+  GrassSummer: {r: 0.1254902, g: 0.5294118, b: 0.09803922, a: 1}
+  GrassWinter: {r: 0.35667628, g: 0.46226418, b: 0.28564438, a: 1}
